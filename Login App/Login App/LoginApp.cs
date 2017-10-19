@@ -21,21 +21,37 @@ namespace Login_App
             this.users = users;
         }
 
-        private void Button1_click(object sender, EventArgs e)
+        private void LoginButton_click(object sender, EventArgs e)
         {
             var username = textBox1.Text;
             var password = textBox2.Text;
+            bool sucess = false;
             foreach (User user in users)
             {
                 if((user.name == username) && (user.pw == password))
                 {
-                    richTextBox1.Text = "Login sucessfull!";
+                    MessageBox.Show("Login sucessfull!");
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    Hide();
+                    new UserInterface().ShowDialog();
+                    Show();
+                    sucess = true;
                     break;
                 }
-                else
-                {
-                    richTextBox1.Text = "Login failed! Username or pasword wrong!";
-                }
+            }
+            if (!sucess)
+            {
+                MessageBox.Show("Login failed! Username or pasword wrong!");
+            }
+        }
+
+        private void LoginByEnter(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                LoginButton_click(this, new EventArgs());
+                e.SuppressKeyPress = true;
             }
         }
     }

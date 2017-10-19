@@ -33,7 +33,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // LoginButton
@@ -45,7 +44,7 @@
             this.LoginButton.TabIndex = 0;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
-            this.LoginButton.Click += new System.EventHandler(this.Button1_click);
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_click);
             // 
             // label1
             // 
@@ -73,6 +72,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginByEnter);
             // 
             // textBox2
             // 
@@ -82,28 +82,22 @@
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 4;
             this.textBox2.UseSystemPasswordChar = true;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(275, 25);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(317, 107);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginByEnter);
             // 
             // LoginApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(637, 148);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(259, 148);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LoginButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "LoginApp";
-            this.Text = "Login Application";
+            this.Text = "Sandragil";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,7 +110,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 

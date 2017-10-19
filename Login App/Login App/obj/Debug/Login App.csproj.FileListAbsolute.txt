@@ -8,3 +8,5 @@ C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.csproj.Gene
 C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.csproj.CoreCompileInputs.cache
 C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.exe
 C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.pdb
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login_App.UserInterface.resources
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login_App.UserRegistration.resources

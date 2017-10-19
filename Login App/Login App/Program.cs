@@ -34,6 +34,7 @@ namespace Login_App
                 var password = stream.ReadLine();
                 users.Add(new User(username, password));
             }
+            stream.Close();
             return users;
         }
     }
