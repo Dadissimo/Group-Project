@@ -1,0 +1,10 @@
+C:\Users\Dragan\source\repos\Login App\Login App\bin\Debug\Login App.exe.config
+C:\Users\Dragan\source\repos\Login App\Login App\bin\Debug\Login App.exe
+C:\Users\Dragan\source\repos\Login App\Login App\bin\Debug\Login App.pdb
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.csprojResolveAssemblyReference.cache
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login_App.LoginApp.resources
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login_App.Properties.Resources.resources
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.csproj.GenerateResource.Cache
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.csproj.CoreCompileInputs.cache
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.exe
+C:\Users\Dragan\source\repos\Login App\Login App\obj\Debug\Login App.pdb
