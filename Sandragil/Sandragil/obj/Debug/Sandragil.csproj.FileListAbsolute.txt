@@ -1,0 +1,11 @@
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\bin\Debug\Sandragil.exe.config
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\bin\Debug\Sandragil.exe
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\bin\Debug\Sandragil.pdb
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.csprojResolveAssemblyReference.cache
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.LoginWindow.resources
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.Properties.Resources.resources
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.csproj.GenerateResource.Cache
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.csproj.CoreCompileInputs.cache
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.exe
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.pdb
+C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.MainWindow.resources
