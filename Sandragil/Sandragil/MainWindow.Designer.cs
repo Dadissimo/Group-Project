@@ -31,8 +31,12 @@
             this.wizzard = new System.Windows.Forms.Button();
             this.herpes = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+            this.HerpesTextBox = new System.Windows.Forms.TextBox();
+=======
             this.LabelHerpes = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+>>>>>>> b3e81b1bed6dcf365be43fa8b4d2b0af8e8534c4
             this.SuspendLayout();
             // 
             // wizzard
@@ -54,7 +58,6 @@
             this.herpes.Text = "start herpes";
             this.herpes.UseVisualStyleBackColor = true;
             this.herpes.Click += new System.EventHandler(this.Start_Herpes);
-            this.herpes.MouseHover += new System.EventHandler(this.Herpes_Hover);
             // 
             // button3
             // 
@@ -65,8 +68,19 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // LabelHerpes
+            // HerpesTextBox
             // 
+<<<<<<< HEAD
+            this.HerpesTextBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.HerpesTextBox.Font = new System.Drawing.Font("Mistral", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.HerpesTextBox.Location = new System.Drawing.Point(718, 153);
+            this.HerpesTextBox.Multiline = true;
+            this.HerpesTextBox.Name = "HerpesTextBox";
+            this.HerpesTextBox.Size = new System.Drawing.Size(307, 92);
+            this.HerpesTextBox.TabIndex = 3;
+            this.HerpesTextBox.Text = "Herpes ";
+            this.HerpesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+=======
             this.LabelHerpes.AutoSize = true;
             this.LabelHerpes.Location = new System.Drawing.Point(289, 71);
             this.LabelHerpes.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -74,6 +88,7 @@
             this.LabelHerpes.Size = new System.Drawing.Size(64, 13);
             this.LabelHerpes.TabIndex = 3;
             this.LabelHerpes.Text = "Play Herpes";
+>>>>>>> b3e81b1bed6dcf365be43fa8b4d2b0af8e8534c4
             // 
             // label1
             // 
@@ -88,9 +103,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(1803, 696);
+            this.Controls.Add(this.HerpesTextBox);
+=======
             this.ClientSize = new System.Drawing.Size(676, 292);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LabelHerpes);
+>>>>>>> b3e81b1bed6dcf365be43fa8b4d2b0af8e8534c4
             this.Controls.Add(this.button3);
             this.Controls.Add(this.herpes);
             this.Controls.Add(this.wizzard);
@@ -106,7 +126,11 @@
         private System.Windows.Forms.Button wizzard;
         private System.Windows.Forms.Button herpes;
         private System.Windows.Forms.Button button3;
+<<<<<<< HEAD
+        private System.Windows.Forms.TextBox HerpesTextBox;
+=======
         private System.Windows.Forms.Label LabelHerpes;
         private System.Windows.Forms.Label label1;
+>>>>>>> b3e81b1bed6dcf365be43fa8b4d2b0af8e8534c4
     }
 }
