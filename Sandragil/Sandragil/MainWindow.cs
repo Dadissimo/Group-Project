@@ -27,6 +27,7 @@ namespace Sandragil
         {
             string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             string file = dir + @"\Herpes.exe";
+            MessageBox.Show(file);
             var pRun = System.Diagnostics.Process.Start(file);
             pRun.WaitForExit();
         }
@@ -34,12 +35,8 @@ namespace Sandragil
         private void Herpes_Hover(object sender, EventArgs e)
         {
             MessageBox.Show("Click this button to start the game Herpes!");
-
         }
 
-<<<<<<< HEAD
-       
-=======
         private void Start_Wizzard(object sender, EventArgs e)
         {
             string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
@@ -48,6 +45,5 @@ namespace Sandragil
             var pRun = System.Diagnostics.Process.Start(file);
             pRun.WaitForExit();
         }
->>>>>>> b3e81b1bed6dcf365be43fa8b4d2b0af8e8534c4
     }
 }
