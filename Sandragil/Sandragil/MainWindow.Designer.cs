@@ -54,7 +54,6 @@
             this.herpes.Text = "start herpes";
             this.herpes.UseVisualStyleBackColor = true;
             this.herpes.Click += new System.EventHandler(this.Start_Herpes);
-            this.herpes.MouseHover += new System.EventHandler(this.Herpes_Hover);
             // 
             // button3
             // 

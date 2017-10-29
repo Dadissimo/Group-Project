@@ -27,21 +27,14 @@ namespace Sandragil
         {
             string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             string file = dir + @"\Herpes.exe";
-            MessageBox.Show(file);
             var pRun = System.Diagnostics.Process.Start(file);
             pRun.WaitForExit();
-        }
-
-        private void Herpes_Hover(object sender, EventArgs e)
-        {
-            MessageBox.Show("Click this button to start the game Herpes!");
         }
 
         private void Start_Wizzard(object sender, EventArgs e)
         {
             string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             string file = dir + @"\Wizzard.exe";
-            MessageBox.Show(file);
             var pRun = System.Diagnostics.Process.Start(file);
             pRun.WaitForExit();
         }
