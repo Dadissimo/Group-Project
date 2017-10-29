@@ -15,7 +15,7 @@ namespace Sandragil
         [STAThread]
         static void Main()
         {
-            StreamReader stream = new StreamReader(@"C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Users.txt");
+            StreamReader stream = new StreamReader(@"C:\Users\Dragan\source\repos\Sandragil\Users.txt");
             List<User> users = new List<User>();
             string username;
             string password;
