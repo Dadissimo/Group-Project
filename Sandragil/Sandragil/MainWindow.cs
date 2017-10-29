@@ -38,12 +38,5 @@ namespace Sandragil
             var pRun = System.Diagnostics.Process.Start(file);
             pRun.WaitForExit();
         }
-
-        private void addToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            WindowAddUser addUser = new WindowAddUser(Users);
-            addUser.ShowDialog();
-            Users = addUser.Users; 
-        }
     }
 }
