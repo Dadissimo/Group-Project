@@ -31,5 +31,10 @@ namespace Sandragil
             var pRun = System.Diagnostics.Process.Start(file);
             pRun.WaitForExit();
         }
+
+        private void Herpes_Hover(object sender, EventArgs e)
+        {
+            MessageBox.Show("Click this button to start the game Herpes!");
+        }
     }
 }
