@@ -21,17 +21,5 @@ namespace Sandragil
             Users = users;
             Active = active_user;
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-<<<<<<< HEAD
-            richTextBox1.AppendText(Active.Name);//hallo test
-            var pRun = System.Diagnostics.Process.Start(@"C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\Herpes.exe");
-            pRun.WaitForExit();
-
-=======
-            richTextBox1.AppendText(Active.Name);//hallo
->>>>>>> ab15b4f8789522d1c5a905b42eeff54661265145
-        }
     }
 }
