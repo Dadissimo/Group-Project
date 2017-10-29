@@ -103,14 +103,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1803, 696);
             this.Controls.Add(this.HerpesTextBox);
-=======
-            this.ClientSize = new System.Drawing.Size(676, 292);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.LabelHerpes);
->>>>>>> b3e81b1bed6dcf365be43fa8b4d2b0af8e8534c4
             this.Controls.Add(this.button3);
             this.Controls.Add(this.herpes);
             this.Controls.Add(this.wizzard);
