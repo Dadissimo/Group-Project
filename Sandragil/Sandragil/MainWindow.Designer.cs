@@ -31,6 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.herpes = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.LabelHerpes = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -53,6 +54,7 @@
             this.herpes.Text = "start herpes";
             this.herpes.UseVisualStyleBackColor = true;
             this.herpes.Click += new System.EventHandler(this.Start_Herpes);
+            this.herpes.MouseHover += new System.EventHandler(this.Herpes_Hover);
             // 
             // button3
             // 
@@ -64,11 +66,21 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // LabelHerpes
+            // 
+            this.LabelHerpes.AutoSize = true;
+            this.LabelHerpes.Location = new System.Drawing.Point(770, 169);
+            this.LabelHerpes.Name = "LabelHerpes";
+            this.LabelHerpes.Size = new System.Drawing.Size(169, 32);
+            this.LabelHerpes.TabIndex = 3;
+            this.LabelHerpes.Text = "Play Herpes";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1803, 696);
+            this.Controls.Add(this.LabelHerpes);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.herpes);
             this.Controls.Add(this.button1);
@@ -76,6 +88,7 @@
             this.Name = "MainWindow";
             this.Text = "MainWindow";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -84,5 +97,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button herpes;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label LabelHerpes;
     }
 }
