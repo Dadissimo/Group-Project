@@ -34,3 +34,5 @@ C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sand
 C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.exe
 C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.pdb
 >>>>>>> cb5cb102fe8db71d0feac4426e0db9568223452f
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\bin\Debug\WindowAddUser.cs
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\bin\Debug\WindowAddUser.Designer.cs
