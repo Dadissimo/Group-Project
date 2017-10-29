@@ -9,3 +9,14 @@ C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.csproj.Core
 C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.exe
 C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.pdb
 C:\Users\Dragan\source\repos\Sandragil\Sandragil\obj\Debug\Sandragil.MainWindow.resources
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\bin\Debug\Sandragil.exe.config
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\bin\Debug\Sandragil.exe
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\bin\Debug\Sandragil.pdb
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.csprojResolveAssemblyReference.cache
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.LoginWindow.resources
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.MainWindow.resources
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.Properties.Resources.resources
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.csproj.GenerateResource.Cache
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.csproj.CoreCompileInputs.cache
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.exe
+C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\obj\Debug\Sandragil.pdb

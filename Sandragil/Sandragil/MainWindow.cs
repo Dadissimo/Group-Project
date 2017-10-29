@@ -25,6 +25,9 @@ namespace Sandragil
         private void button1_Click(object sender, EventArgs e)
         {
             richTextBox1.AppendText(Active.Name);//hallo test
+            var pRun = System.Diagnostics.Process.Start(@"C:\Users\shaas\Documents\GitHub\Group-Project\Sandragil\Sandragil\Herpes.exe");
+            pRun.WaitForExit();
+
         }
     }
 }
