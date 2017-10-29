@@ -37,6 +37,17 @@ namespace Sandragil
 
         }
 
+<<<<<<< HEAD
        
+=======
+        private void Start_Wizzard(object sender, EventArgs e)
+        {
+            string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string file = dir + @"\Wizzard.exe";
+            MessageBox.Show(file);
+            var pRun = System.Diagnostics.Process.Start(file);
+            pRun.WaitForExit();
+        }
+>>>>>>> b3e81b1bed6dcf365be43fa8b4d2b0af8e8534c4
     }
 }
