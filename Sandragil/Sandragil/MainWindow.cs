@@ -27,6 +27,7 @@ namespace Sandragil
         {
             string dir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             string file = dir + @"\Herpes.exe";
+            MessageBox.Show(file);
             var pRun = System.Diagnostics.Process.Start(file);
             pRun.WaitForExit();
         }
