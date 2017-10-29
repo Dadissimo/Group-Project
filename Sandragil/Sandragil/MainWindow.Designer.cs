@@ -32,7 +32,7 @@
             this.herpes = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.LabelHerpes = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.LabelWizzard = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // wizzard
@@ -75,27 +75,22 @@
             this.LabelHerpes.TabIndex = 3;
             this.LabelHerpes.Text = "Play Herpes";
             // 
-            // label1
+            // LabelWizzard
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(127, 70);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Play Wizzard";
+            this.LabelWizzard.AutoSize = true;
+            this.LabelWizzard.Location = new System.Drawing.Point(127, 70);
+            this.LabelWizzard.Name = "LabelWizzard";
+            this.LabelWizzard.Size = new System.Drawing.Size(68, 13);
+            this.LabelWizzard.TabIndex = 4;
+            this.LabelWizzard.Text = "Play Wizzard";
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(676, 292);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LabelWizzard);
             this.Controls.Add(this.LabelHerpes);
-=======
-            this.ClientSize = new System.Drawing.Size(1803, 696);
-            this.Controls.Add(this.HerpesTextBox);
->>>>>>> 27709dd90c148041163a30bbef75a175fa6e189b
             this.Controls.Add(this.button3);
             this.Controls.Add(this.herpes);
             this.Controls.Add(this.wizzard);
@@ -112,6 +107,6 @@
         private System.Windows.Forms.Button herpes;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label LabelHerpes;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LabelWizzard;
     }
 }
