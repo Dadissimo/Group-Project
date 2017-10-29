@@ -19,5 +19,9 @@ namespace Sandragil
             Password = password;
             Name = username;
         }
+        public User()
+        {
+
+        }
     }
 }
