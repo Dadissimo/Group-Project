@@ -24,7 +24,7 @@ namespace Sandragil
 
         private void button1_Click(object sender, EventArgs e)
         {
-            richTextBox1.AppendText(Active.Name);//hallo
+            richTextBox1.AppendText(Active.Name);//hallo test
         }
     }
 }
